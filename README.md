@@ -2,6 +2,15 @@
 
 Excelファイルを加工して、勘定科目内訳明細書用のCSVファイルを作成します。
 
+## 参考
+
+[勘定科目内訳明細書及び法人税申告書別表等(明細記載を要する部分)のCSV形式データの作成方法](https://www.e-tax.nta.go.jp/hojin/gimuka/csv_jyoho2.htm)
+
+
+[Excelファイル](https://www.e-tax.nta.go.jp/hojin/gimuka/csv_jyoho2/2/utiwakesyo_3104_all.xlsx)にデータを入力し、タイトル行の削除等の加工をした上で、CSVファイルを作成する必要があります。
+
+その加工を自動化するためのツールです。
+
 ## exTax2
 
 文字変換、文字数オーバーなどに対応した新しい変換ソフトです。
@@ -59,13 +68,7 @@ exTaxLog.exeを起動します。（`exTagLog`）
 
 処理内容が画面に表示されますので、変換が上手くできない処理を特定します。
 
-### 参考
-[勘定科目内訳明細書及び法人税申告書別表等(明細記載を要する部分)のCSV形式データの作成方法](https://www.e-tax.nta.go.jp/hojin/gimuka/csv_jyoho2.htm)
 
-
-[Excelファイル](https://www.e-tax.nta.go.jp/hojin/gimuka/csv_jyoho2/2/utiwakesyo_3104_all.xlsx)にデータを入力し、タイトル行の削除等の加工をした上で、CSVファイルを作成する必要があります。
-
-その加工を自動化するためのツールです。
 
 ### よくあるエラー
 
